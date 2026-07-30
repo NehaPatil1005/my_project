@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: employee_clean
+    columns:
+      - name: EMP_ID
+        data_tests:
+          - unique
+          - not_null
+
+      - name: EMP_NAME
+        data_tests:
+          - not_null
+
+      - name: DEPARTMENT
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - IT
+                  - HR
+                  - FINANCE
+                  - SALES
+                  - MARKETING
