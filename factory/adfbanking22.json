@@ -1,0 +1,16 @@
+{
+	"name": "adfbanking22",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true,
+			"isExplicitlySet": false
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b9471376-550f-41b7-8fcd-71055969bf1d",
+		"tenantId": "bcb57d85-79fd-47e2-99f6-08b9fd3c13c0"
+	}
+}
